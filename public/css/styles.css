@@ -1,0 +1,36 @@
+body {
+	background-color: #E74C3C;
+	color:white;
+}
+
+h1 {
+	font-size: 60px;
+	color:white;
+}
+
+a {
+	color:white;
+}
+
+#mazeForm{
+	background-color: #E74C3C;
+
+}
+
+#container {
+	text-align: center;
+	line-height: 18px;
+	font-size: 20px;
+	font-family: 'Roboto Mono', courier, monospace;
+    margin-top: 50px;
+}
+
+.centered {
+   text-align: center;
+}
+
+.centered > div {
+   float: none;
+   display: inline-block;
+   text-align: left;
+}

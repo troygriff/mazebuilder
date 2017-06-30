@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+		<meta name="theme-color" content="#ffffff">
+		<meta charset="UTF-8">
+		<title>Maze Generator</title>
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/styles.css" rel="stylesheet">
+	</head>
+	<body>
+		<section>
+			<br>
+			<h1 class="text-center">Maze Generator</h1>
+			<div class="col-md-offset-4 col-md-4 centered jumbotron" id="mazeForm">
+				<p>Create an ASCII maze based on <a href="https://en.wikipedia.org/wiki/Disjoint-set_data_structure" id="linkColor">disjoint sets.</a></p>
+				<br>
+				<div class="col-md-6 centered">
+					<input id="width" class="form-control" type="text" placeholder="maze width">
+					<br><br>
+					<input id="height" class="form-control" type="text" placeholder="maze height">
+					<br><br>
+					<button class="btn btn-primary center-block outline" id="MazeButton">Create Maze</button>
+				</div>
+			</div>
+			<div class="col-md-12 centered">
+				<p id="note"></p>
+				<div id="container">
+				<section id="maze"></section>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+</section>
+</body>
+</html>
+<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+
+<script src="js/main.js"></script>
+
+<script src="js/DisjointSet.js"></script>
+<script src="js/Maze.js"></script>
